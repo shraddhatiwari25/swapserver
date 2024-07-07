@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 // MiddleWare
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://swap-gardens-server.vercel.app', 'https://swapgardens.netlify.app'],
+    origin: ['http://localhost:5173', 'https://swap-gardens-server.vercel.app', 'https://swpplantclint.vercel.app/'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
 }));
